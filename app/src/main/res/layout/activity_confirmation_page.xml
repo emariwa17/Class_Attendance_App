@@ -4,6 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConfirmationPage">
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/FragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Your record has been successfully added"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="338dp"
+            android:layout_height="248dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/ic_check_circle_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="30dp"/>
+
+
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

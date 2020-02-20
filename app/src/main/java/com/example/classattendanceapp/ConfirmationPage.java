@@ -3,6 +3,7 @@ package com.example.classattendanceapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class ConfirmationPage extends AppCompatActivity {
 
@@ -11,4 +12,6 @@ public class ConfirmationPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmation_page);
     }
+
+
 }
