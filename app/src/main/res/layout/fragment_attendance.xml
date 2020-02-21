@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your details"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="120dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Tap Student ID Card"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_credit_card_black_24dp"
+            android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+            android:drawablePadding="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:background="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender"
+            android:background="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_wc_black_24dp"
+            android:drawableLeft="@drawable/ic_wc_black_24dp"
+            android:drawablePadding="10dp">
+
+        </TextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="200dp"
+
+       >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="12dp"
+            android:paddingRight="10dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Female"
+            android:textSize="12dp"
+            android:paddingLeft="10dp"
+            />
+
+    </RadioGroup>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+
+        <TextView
+            android:id="@+id/dptTxtViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department"
+            android:background="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_home_black_24dp"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:drawablePadding="10dp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/departmentSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="200dp"
+
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_fields"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Session"
+            android:background="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14dp"
+            android:drawableStart="@drawable/ic_book_black_24dp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:drawablePadding="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/sessionSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="505dp"
+        android:layout_marginLeft="200dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/push_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Submit Record"
+        android:textColor="@android:color/white"
+        android:onClick="addRecord"
+
+
+        />
+
+
+</FrameLayout>
