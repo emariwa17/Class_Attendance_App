@@ -44,24 +44,19 @@ public class MainActivity extends AppCompatActivity {
         }
 //
         studentID = (EditText) findViewById(R.id.studentID);
-//        studentName = findViewById(R.id.studentName);
+        studentName = (EditText) findViewById(R.id.studentName);
 //        Password = findViewById(R.id.password);
 //        Email = findViewById(R.id.emailField);
         submitButton = (Button)findViewById(R.id.push_button);
 
 
-
-
-
-
-
-
-
     }
 
     public void addRecord(View view) {
-        Intent myActivity = new Intent(this, ConfirmationPage.class);
-        startActivity(myActivity);
+
+            Intent myActivity = new Intent(this, ConfirmationPage.class);
+            startActivity(myActivity);
+
 
     }
 }
