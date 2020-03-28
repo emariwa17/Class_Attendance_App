@@ -238,7 +238,37 @@
             android:drawableLeft="@drawable/ic_book_black_24dp"
             android:drawablePadding="10dp"
             />
+
+
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtTagContent"
+        android:background="@null"
+        android:hint="NFC number to appear here"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="620dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="14dp"
+        android:drawablePadding="10dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/tglReadWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="570dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:checked="true"
+        android:onClick="tglReadWriteOnClick"
+        />
 
     <Spinner
         android:id="@+id/sessionSpinner"
@@ -255,17 +285,14 @@
         android:id="@+id/push_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="135dp"
-        android:layout_marginTop="600dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="680dp"
         android:background="@drawable/button"
         android:padding="15dp"
         android:text="Submit Record"
         android:textColor="@android:color/white"
         android:onClick="addRecord"
-
-
-
-        />
+        tools:ignore="OnClick" />
 
 
 </FrameLayout>
